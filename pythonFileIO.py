@@ -1,11 +1,11 @@
 f = open("testFile.txt", "rt")
 content = f.read()
 print(content)
-# print(f.readlines())
+# print(f.readlines()) #Returns a list object
 # print(f.readline())
 # print(f.readline())
 # print(f.readline())
-# content = f.read()
+# content = f.read() #Here, you will get the specified characters of the file.
 #
 # for line in f:
 #     print(line, end="")
